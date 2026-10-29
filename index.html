@@ -6,14 +6,43 @@
   <title>Page Title</title>
   <link rel="stylesheet" href="">
 </head>
+<nav>
+    <a href="/index.html">Index</a>
+</nav>
 <body>
+    <style>
+        body{
+            margin: 60pt;
+        }
+        #titleP {
+            background-color: cyan;
+        }
+        h1{
+            color: #4f0b63;
+            text-shadow: 2px 2px #ff0000;
+        }
+        p{
+            color: white;
+            font: italic small-caps bold 12px/30px Georgia, serif;
+            text-shadow: 2px 2px #ff0000;
+            background-color: #4f0b63;
+        }
+        .purpleP {
+            background-color: purple;
+            color: black;
+        }
+        #specialP {
+            font-size: 3rem;
+        }
+    </style>
 
 <img src="img_la.jpg" alt="Los Angeles" style="width:100%">
 
 <main>
-  <h1>This is a Heading</h1>
-  <p>This is a paragraph.</p>
-  <p>This is another paragraph.</p>
+  <h1 id="titleP">This is a Heading</h1>
+  <p class="purpleP">This is a paragraph.</p>
+  <p id="specialP">This is another paragraph.</p>
+  <p>This paragraph is not important</p>
 </main>
 
 <script src=""></script>
